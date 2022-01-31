@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel= "stylesheet" href="resources/css/main.css">
+<meta charset="UTF-8">
+<title>Bancomat Virtuale</title>
+</head>
+<body>
+ 
+ <h1>Bancomat Virtuale</h1>
+
+  <br><br>
+ <form  method="post" action="conto">
+
+			<label for="id">Numero Conto:</label>
+			<input type="number" name="id"><br>
+			
+			
+		<label for="banca">Operazione</label>
+		<select name="tipomovimento" id="banca">
+		  <option value="preleva">Preleva</option>
+		  <option value="deposita">Deposita</option>
+		  	<option value="saldo">Saldo</option>
+		</select>
+		<br><br>
+		  		Importo:<input type="number" name="importo"><br>
+		  			<input class="cod" type="submit" value="invia">
+		</form>
+		<hr>
+		<br>
+		<a href="index.html">Reset Page</a>
+		
+
+  
+  
+</body>
+</html>
